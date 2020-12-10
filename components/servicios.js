@@ -15,7 +15,7 @@ const Servicios = () => {
             <div className="w-auto md:w-2/4">
                 <div className="px-6 py-4">
                     <p className="font-Fredoka text-shadow-3xl text-2xl text-center text-white">SERVICIO TECNICO</p>
-                        <p className="font-Fredoka text-red text-3xl mt-4 text-center">¿Tu patinete no funciona como debería?</p>
+                        <p className="font-Fredoka text-white text-3xl mt-4 text-center">¿Tu patinete no funciona como debería?</p>
 
                         <p className="text-white text-l text-center">
                         Hacemos todo tipo de reparaciones desde eléctricas hasta mecánicas.</p>
