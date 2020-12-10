@@ -1,5 +1,5 @@
 module.exports = {
-    purge: [],
+    purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
     theme: {
         fontFamily: {
            'Modak': ['Modak', 'cursive'],
@@ -18,7 +18,6 @@ module.exports = {
         },
     },
     variants: {
-        scrollSnapType: ['responsive'],
     },
-    plugins: [require('tailwindcss-scroll-snap'), require('tailwindcss-textshadow')],
+    plugins: [require('tailwindcss-textshadow')],
 }
